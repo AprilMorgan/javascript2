@@ -6,15 +6,15 @@ import {outputToElement} from './display.js';
 document.querySelector('#submitButton').addEventListener("click", function() {
     submitFunction('circumference');
 }, false);
-document.querySelector('#submitButtonArea').addEventListener("click", function() {
+document.querySelector('#submitAreaButton').addEventListener("click", function() {
     submitFunction('area');
 }, false);
 
 function submitFunction(calculationToMake) {
     let outputId = "output", inputId = "radius";
     if (calculationToMake === "area") {
-        outputId += "area";
-        inputId += "area";
+        outputId += "Area";
+        inputId += "Area";
     }
     let userRadius = convertToNumber(document.getElementById(inputId).value);
     if(!userRadius) {
