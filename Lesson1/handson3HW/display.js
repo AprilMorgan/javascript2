@@ -1,4 +1,4 @@
-function outputToElement(elementID, value, color) {
+export function outputToElement(elementID, value, color) {
     document.getElementById(elementID).innerHTML = value;
     if(color) {
         document.getElementById(elementID).style.color = color;

@@ -21,9 +21,9 @@ function submitFunction(calculationToMake) {
         outputToElement(outputId, "Please enter a valid number.", "red");
     } else {
         if (calculationToMake === "area") {
-            outputToElement(outputId, `The area is ${calculateArea(userRadius)}!`);
+            outputToElement(outputId, `The area is ${calculateArea(userRadius)}!`, "green");
         } else {
-            outputToElement(outputId, `The circumference is ${calculateCircumference(userRadius)}!`);
+            outputToElement(outputId, `The circumference is ${calculateCircumference(userRadius)}!`, "green");
         }
     }
 }
