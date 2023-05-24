@@ -3,7 +3,7 @@ import "./App.css";
 // import { Greet, Greet2, Greet3 } from "./components/Greet";
 // import { Welcome, Welcome2 } from "./components/welcome";
 import Message from "./components/message";
-// import Counter from "./components/Counter"
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
       <Welcome2 name="Lilly" nickname="Lilz" />
       <Welcome2 name="Vanessa" namenames="Van ess" /> */}
       <Message />
+      <Counter />
     </div>
   );
 }
