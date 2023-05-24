@@ -9,22 +9,28 @@ class UserGreeting extends Component {
   }
 
   render() {
-    if(this.state.isLoggedIn) {
-          return <h1>Welcome April! Logged in</h1>
-        }else{
-          return <h1>Welcome Guest! Logged in</h1>
-        };
+
+    return this.state.isLoggedIn && <div>Welcome April</div>
+
+    // return(
+    //   this.state.isLoggedIn ? 
+    //   <div>Welcome April</div> :
+    //   <div>Welcome Guest</div>
+    // )
+      // if(this.state.isLoggedIn) {
+      //   return <h1>Welcome April!</h1>
+      // } else {
+      //   return <h1>Welcome Guest!</h1>
+      //   };
   
-        // let message;
-        // if(this.state.isLoggedIn) {
-        // message = <div>Welcome April</div>
-        // }else{
-        // message = <div>Welcome Guest</div>
-        // }
-        // return <div>{message}</div>
-
+    // let message;
+    // if(this.state.isLoggedIn) {
+    //   message = <div>Welcome April</div>
+    // } else {
+    //     message = <div>Welcome Guest</div>
+    //     }
+    //     return <div>{message}</div>
   }
-
 }
 
 export default UserGreeting;

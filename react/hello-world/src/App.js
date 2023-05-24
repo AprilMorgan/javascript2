@@ -7,8 +7,8 @@ import "./App.css";
 // import ClassClick from "./components/ClassClick";
 // import FunctionClick from "./components/FunctionClick";
 // import EventBind from "./components/EventBind";
-// import UserGreeting from "./components/UserGreeting";
-import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+// import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
@@ -28,9 +28,9 @@ function App() {
       <Counter />
       <EventBind />
       <ClassClick />
-      <FunctionClick />
-      <UserGreeting /> */}
-      <ParentComponent />
+      <FunctionClick /> */}
+      <UserGreeting />
+      {/* <ParentComponent /> */}
     </div>
   );
 }
