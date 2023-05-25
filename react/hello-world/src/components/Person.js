@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Person({person}) {
+function Person({person, key}) {
   return (
     <div>
       <h2>
-        I am {person.name}. I am {person.age} years old.  
+        {key} I am {person.name}. I am {person.age} years old.  
       </h2>
     </div>
   )

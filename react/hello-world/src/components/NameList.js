@@ -20,7 +20,7 @@ function NameList() {
       },
     ]
 
-    const personlist = persons.map(person => <Person person={person} />)
+    const personlist = persons.map(person => <Person key={person.id} person={person} />)
     return <div>{personlist}</div>
   
 }

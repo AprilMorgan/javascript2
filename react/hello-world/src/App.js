@@ -9,7 +9,7 @@ import "./App.css";
 // import EventBind from "./components/EventBind";
 import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
-// import ParentComponent from "./components/ParentComponent";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
       <FunctionClick /> */}
       <UserGreeting />
       <NameList />
-      {/* <ParentComponent /> */}
+      <ParentComponent />
     </div>
   );
 }
