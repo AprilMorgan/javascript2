@@ -7,13 +7,17 @@ import "./App.css";
 // import ClassClick from "./components/ClassClick";
 // import FunctionClick from "./components/FunctionClick";
 // import EventBind from "./components/EventBind";
-import UserGreeting from "./components/UserGreeting";
-import NameList from "./components/NameList";
-import ParentComponent from "./components/ParentComponent";
+// import UserGreeting from "./components/UserGreeting";
+// import NameList from "./components/NameList";
+// import ParentComponent from "./components/ParentComponent";
+// import Stylesheet from "./components/Stylesheet";
+// import InLine from "./components/InLine";
 
 function App() {
   return (
     <div className="App">
+      {/* <InLine /> */}
+      {/* <Stylesheet primary={true} /> */}
       {/* <Greet name="April" nickname="Ape">
         <button>Visit Website</button>
         <p>Hello World! Look what I did!</p>
@@ -30,9 +34,9 @@ function App() {
       <EventBind />
       <ClassClick />
       <FunctionClick /> */}
-      <UserGreeting />
+      {/* <UserGreeting />
       <NameList />
-      <ParentComponent />
+      <ParentComponent /> */}
     </div>
   );
 }
